@@ -27,7 +27,7 @@ public class ScoreManager : MonoBehaviour
     {
         score+=1;
         scoreText.text = score.ToString() + " POINTS";
-        if (score < 50 || score > 50)
+        if (score < 500 || score > 500)
         {
             win.text = "You Lose!";
         }
